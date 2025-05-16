@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 # Load trained model and label encoder
-model = joblib.load("model/career_model.pkl")
-label_encoder = joblib.load("model/label_encoder.pkl")
+model = joblib.load("career_model.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 st.set_page_config(page_title="Career Predictor", page_icon="🎯")
 st.title("🎓 AI Career Predictor")
